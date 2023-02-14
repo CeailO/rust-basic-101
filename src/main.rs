@@ -3,7 +3,7 @@ fn main() {
     println!("Enter your weight (kg):");
     let mut input = String::new();
     /*
-     *  1. A method in results from read_line return type, which called unwrap().
+     * 1. A method in results from read_line return type, which called unwrap().
      * if results return error, the program terminated.
      * if results return success, it will yield the contents of the result.
      */
