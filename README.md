@@ -13,3 +13,7 @@ The content can be navigate through branch options
 07. Referencing Borrowing
 08. Debugging
 09. Final Retouch
+
+## Not so Newb
+
+10. Struct
