@@ -19,7 +19,8 @@ struct _Server {
  * Add functionality to Server struct, write an implementation block
  */
 impl _Server {
-    /* Create method or associate function
+    /*
+     * Create method or associate function
      *
      * Method in rust always take its first parameter called self
      * self = instance of the struct for the method being called on
@@ -32,7 +33,8 @@ impl _Server {
         // Self or Server in equivalent
         Self { addr }
     }
-    /* self pointed to instance of the struct
+    /*
+     * self pointed to instance of the struct
      * Equivalent to this keyword in other language
      */
     fn _run(self) {}
