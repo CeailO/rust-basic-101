@@ -4,7 +4,7 @@
  */
 
  fn main() {
-    //invoke function
+    // Invoke function
     calculate_weight_on_mars(100.0);
 }
 
