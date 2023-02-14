@@ -1,8 +1,8 @@
-## Rust Basic 101
+# Rust Basic 101
 
 The content can be navigate through branch options
 
-#Newb
+## Newb
 
 01. Basic Data Type
 02. Functions
