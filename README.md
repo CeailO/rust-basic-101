@@ -19,3 +19,4 @@ The content can be navigate through branch options
 10. Struct
 11. String
 12. Enum
+13. Option
