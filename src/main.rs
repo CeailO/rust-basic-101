@@ -1,10 +1,10 @@
 /**
  * Rust bundled with std library by default.
  * Have collections of:
- * - Hash maps
+ * - Hash Maps
  * - Vectors
  * - Data Structures
- * - IO primitives
+ * - IO Primitives
  * More info: https://doc.rust-lang.org/std/#modules
  * IO Modules: https://doc.rust-lang.org/std/io/index.html
  */
