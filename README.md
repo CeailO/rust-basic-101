@@ -17,3 +17,4 @@ The content can be navigate through branch options
 ## Not so Newb
 
 10. Struct
+11. String
