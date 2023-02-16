@@ -14,6 +14,6 @@ impl Server {
          * Hold the method to read the definition
          * bind() method will return Result that wrap the TcpListener
          */
-        let listener = TcpListener::bind(&self.addr);
+        let _listener = TcpListener::bind(&self.addr);
     }
 }
