@@ -30,6 +30,17 @@ impl Server {
 struct Request {
     method: Method,
     path: String,
-    // Sometimes receiving query parameter with HTTP request is optional 
+    // Sometimes receiving query parameter with HTTP request is optional
     query_string: Option<String>, // Option<T> - Option is generic over Some(T), where T is type. Enabling space allocation ahead of time
+}
+
+enum Method {
+    GET(String),
+    HEAD,
+    POST,
+    PUT,
+    DELETE(u64),
+    CONNECT,
+    OPTIONS,
+    TRACE,
 }
