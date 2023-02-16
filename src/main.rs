@@ -1,5 +1,5 @@
 /*
- * function declaration keyword:
+ * Function declaration keyword:
  * fn <concat_name>(<parameter>: <parameter type>) -> <return type> {}
  */
 
