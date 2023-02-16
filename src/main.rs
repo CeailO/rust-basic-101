@@ -10,15 +10,15 @@
  * Some - expressing the value
  */
 fn main() {
-    let get = Method::GET("abcd".to_string());
-    let delete = Method::DELETE(1);
-    let post = Method::POST;
-    let put = Method::PUT;
-    let patch = Method::PATCH;
-    let head = Method::HEAD;
-    let options = Method::OPTIONS;
-    let trace = Method::TRACE;
-    let connect = Method::CONNECT;
+    let _get = Method::GET("abcd".to_string());
+    let _delete = Method::DELETE(1);
+    let _post = Method::POST;
+    let _put = Method::PUT;
+    let _patch = Method::PATCH;
+    let _head = Method::HEAD;
+    let _options = Method::OPTIONS;
+    let _trace = Method::TRACE;
+    let _connect = Method::CONNECT;
     let server = Server::new("127.0.0.1:8080".to_string());
     server.run();
 }
@@ -36,7 +36,7 @@ impl Server {
     }
 }
 
-struct Request {
+struct _Request {
     method: Method,
     path: String,
     // Sometimes receiving query parameter with HTTP request is optional
