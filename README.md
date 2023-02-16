@@ -20,5 +20,6 @@ The content can be navigate through branch options
 11. String
 12. Enum
 13. Option
+14. Modules
 
 ___To be updated...___
