@@ -21,5 +21,6 @@ The content can be navigate through branch options
 12. Enum
 13. Option
 14. Modules
+15. Tcp Connection
 
 ___To be updated...___
