@@ -67,7 +67,7 @@ impl Server {
             // }
             /*
              * 2. Need to unwrap the Result type from accept() by using unwrap()
-             * the res.unwrap() will give us s tuple of (TcpStream, SocketAddr)
+             * The res.unwrap() will give us a tuple of (TcpStream, SocketAddr)
              */
             // let stream = res.unwrap();
 
