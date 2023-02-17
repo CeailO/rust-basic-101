@@ -12,7 +12,7 @@ impl Server {
         /*
          * Pass the reference to the address
          * Hold the method to read the definition
-         * bind() (asscoiate function) will return Result that wrap the TcpListener
+         * bind() (associate function) will return Result that wrap the TcpListener
          */
         let _listener = TcpListener::bind(&self.addr);
     }
