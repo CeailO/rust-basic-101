@@ -26,7 +26,7 @@ impl Server {
              * General way to group a number of values with different types into a compound type
              * Tuples are fixed in size, it can't grow or shrink in size
              *
-             * From Result<TcpStream, SocketAddr>, (TcpStream, SocketAddr) is a tuples
+             * From Result<(TcpStream, SocketAddr)>, (TcpStream, SocketAddr) is a tuples
              * which have TcpStream type and SocketAddr type
              */
             listener.accept(); // Continue the loop once it receive the connection
