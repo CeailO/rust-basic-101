@@ -1,5 +1,10 @@
 # Rust Basic 101
 
+Covering Rust syntaxes and essence foundation of TCP/IP establishment steps.
+
+The tutorial only covers the standalone standard library package that come from Rust installation.
+Thus the latter did not cover the external cargo such as hyper, or tokio async.
+
 The content can be navigate through branch options
 
 ## Newb
