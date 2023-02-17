@@ -23,6 +23,6 @@ The content can be navigate through branch options
 14. Modules
 15. Tcp Connection
 16. Enum Result
-17. While Loop (~~Because we all know how bad for loop is~~)
+17. While Loop
 
 ___To be updated...___
