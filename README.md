@@ -29,5 +29,6 @@ The content can be navigate through branch options
 15. Tcp Connection
 16. Enum Result
 17. While Loop
+18. Tuples
 
 ___To be updated...___
