@@ -32,7 +32,7 @@ impl Server {
                              * String slice is constructed from slice of bytes &[u8], not all slices are valid utf-8 sequences. Also it's regard as primitive string.
                              *
                              * In this case, validity of utf-8 is not a concern
-                             * from_utf8_lossy() is tan associate function that will not fail for bytes into string conversions.
+                             * from_utf8_lossy() is an associate function that will not fail for bytes into string conversions.
                              * Any invalid utf-8 sequences will result in U+FFFD
                              */
                             println!("Received a request: {}", String::from_utf8_lossy(&buffer));
