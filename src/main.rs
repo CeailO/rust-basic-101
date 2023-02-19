@@ -4,7 +4,7 @@ fn main() {
      * let mars_weight = calculate_weight_on_mars(100.0);
      */
     let mut mars_weight = calculate_weight_on_mars(100.0);
-    // Can't assign to immutable variables
+    // Can't assign to immutable variables thus mars_weight need to become mutable
     mars_weight = mars_weight * 100.0;
     print!("Weight on Mars: {}g", mars_weight)
 }
