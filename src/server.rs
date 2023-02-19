@@ -1,6 +1,6 @@
 use std::{
     /*
-     * Read() are in form of traits
+     * Read are in form of traits
      * Read traits have no body
      *
      * Act like an interface
