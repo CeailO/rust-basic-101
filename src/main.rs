@@ -2,7 +2,7 @@
  * Examples:
  * println!("");"
  * Can receive variable number of arguments. Also can called
- * string contain {} (curly braces) that sustitute with value.
+ * string contain {} (curly braces) that substitute with value.
  *
  * ! is macro definition. Used for meta programming purposes.
  * More complex than function.
