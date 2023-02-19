@@ -33,5 +33,6 @@ The content can be navigate through branch options
 19. Match Expression
 
 ## Advanced Newb
+20. Array
 
 ___To be updated...___
