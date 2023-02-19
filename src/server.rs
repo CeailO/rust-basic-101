@@ -16,7 +16,7 @@ impl Server {
          */
         // while true {} // infinite loop
         /*
-         * Also infinte loop which commonly use: loop {}
+         * Also infinite loop which commonly use: loop {}
          *
          * Unique feature: Loop also can be labeled
          * <apostrophe><label_name>: loop {}
