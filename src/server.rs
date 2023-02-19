@@ -33,7 +33,7 @@ impl Server {
         }
         /*
          * Syntax defining tuples
-         * (<type_1>, <type_2>, <type_3)
+         * (<element_type_1>, <element_type_2>, <element_type_3)
          */
         // let tup = (5, "a", listener);
 
