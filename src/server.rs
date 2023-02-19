@@ -77,7 +77,7 @@ impl Server {
                      */
                     let mut buffer = [0; 1024]; // worth of 1kb allocation
 
-                    // read() will read all the memory from the array given: buffer
+                    // read() will read all the memory from the given array: buffer
                     stream.read(&mut buffer);
                 }
                 Err(e) => println!("Failed to establish connection: {}", e),
