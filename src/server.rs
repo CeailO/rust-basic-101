@@ -53,6 +53,7 @@ impl Server {
                              * Output:
                              * Received a request: <request-method> <page_route> <http_protocol>
                              * <header_info>
+                             * <empty_body>
                              */
                         }
                         Err(e) => println!("Failed to read from connection: {}", e),
