@@ -37,7 +37,6 @@ impl Server {
         loop {
             match listener.accept() {
                 /*
-                 *
                  * read fn take &mut self and buf: &mut [u8]
                  * read() take mutable reference to self thus stream variable needed to be mutable
                  */
