@@ -72,9 +72,9 @@ impl Server {
                      * Rust array initialization:
                      * 1. Allocate chunk of memories enough for size allocation
                      * 2. Re-traverse whole memory region/ allocated array with memories
-                     * 3. flip all bits to value provided (in this case is we give 0)
+                     * 3. Flip all bits to value provided (in this case is we give 0)
                      */
-                    let mut buffer = [0; 1024]; // worth of 1kb allocation
+                    let mut buffer = [0; 1024]; // Worth of 1kb allocation
 
                     // read() will read all the memory from the given array: buffer
                     stream.read(&mut buffer);
