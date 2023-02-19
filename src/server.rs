@@ -37,7 +37,7 @@ impl Server {
         loop {
             match listener.accept() {
                 /*
-                 * read fn take &mut self and buf: &mut [u8]
+                 * read() fn take &mut self and buf: &mut [u8]
                  * read() take mutable reference to self thus stream variable needed to be mutable
                  */
                 Ok((mut stream, _addr)) =>
@@ -46,7 +46,7 @@ impl Server {
                  *
                  * read() is separated from TcpStream implementation
                  * Arrays defined as [<array_element1>,<array_element2>,...] also known as compound types
-                 * Differs to tuple it contain a group of same types
+                 * Differs with tuple it contain a group of same types
                  */
                 {
                     // New array a instance: [i32; 4] where i32 is array type and 4 is array size
@@ -65,9 +65,9 @@ impl Server {
                      *
                      * Special syntax for creating an array contain same value for each elements
                      *
-                     * Contrast from C array initialization, the array will contain random memory
+                     * Contrast from C language array initialization, the array will contain random memory
                      * if doesn't deallocate properly from previous memory address access,
-                     * and lead to memory corruption
+                     * will lead to memory corruption
                      *
                      * Rust array initialization:
                      * 1. Allocate chunk of memories enough for size allocation
