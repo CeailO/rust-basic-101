@@ -65,7 +65,7 @@ impl TryFrom<&[u8]> for Request {
 
         /*
          * Calling encryption function for bytes slice
-         * Receive buf argument through function parameter
+         * accepting buf argument through function parameter
          */
         buf.encrpyt();
 
