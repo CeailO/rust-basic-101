@@ -30,6 +30,6 @@ The content can be navigate through branch options
 | 19    | [Match Expression](https://github.com/CeailO/rust-basic-101/tree/19/src)           | Feb 18, 2023 |               |
 | 20    | [Array](https://github.com/CeailO/rust-basic-101/tree/20/src)                      | Feb 20, 2023 | Advanced Newb |
 | 21    | [Logging](https://github.com/CeailO/rust-basic-101/tree/21/src)                    | Feb 20, 2023 |               |
-| 21    | [Traits and Type conversion](https://github.com/CeailO/rust-basic-101/tree/22/src) | Feb 26, 2023 |               |
+| 22    | [Traits and Type conversion](https://github.com/CeailO/rust-basic-101/tree/22/src) | Feb 26, 2023 |               |
 
 **_To be updated..._**
