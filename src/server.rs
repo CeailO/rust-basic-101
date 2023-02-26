@@ -33,7 +33,7 @@ impl Server {
                             println!("Received a request: {}", String::from_utf8_lossy(&buffer));
                             /*
                              * Since TryFrom is in generic form so it can't figure [u8, 1024], buffer is [u8; 1024].
-                             * We need to convert [u8, 1024] bytes slices [u8]
+                             * We need to convert [u8, 1024] into bytes slices [u8]
                              *
                              * Two ways:
                              * 1. use as keyword, so it treat it as byte slice, [u8]
