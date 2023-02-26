@@ -79,7 +79,7 @@ impl TryFrom<&[u8]> for Request {
      * <http_method> /<path>?<query_string> <http_protocol>
      * GET /search?name=abc&sort=1 HTTP/1.1
      */
-
+    
     fn try_from(buf: &[u8]) -> Result<Self, Self::Error> {
         let string = String::from("asd");
         string.encrpyt();
