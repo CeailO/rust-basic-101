@@ -32,5 +32,6 @@ The content can be navigate through branch options
 | 21    | [Logging](https://github.com/CeailO/rust-basic-101/tree/21/src)                    | Feb 20, 2023 |               |
 | 22    | [Traits and Type conversion](https://github.com/CeailO/rust-basic-101/tree/22/src) | Feb 27, 2023 |               |
 | 23    | [Custom Error](https://github.com/CeailO/rust-basic-101/tree/23/src)               | Feb 27, 2023 |               |
+| 24    | [Error Handling](https://github.com/CeailO/rust-basic-101/tree/24/src)             | Feb 27, 2023 |               |
 
 **_To be updated..._**
