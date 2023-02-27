@@ -95,7 +95,7 @@ impl TryFrom<&[u8]> for Request {
         //     Err(e) => return Err(e),
         // }
 
-        // // Instead of `match` above, the same `match` statement can be represented as below
+        /* Instead of `match` above, the same `match` statement can be represented as below */
         // let request = from_utf8(buf).or(Err(ParseError::InvalidEncoding))?;
 
         /*
